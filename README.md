@@ -36,20 +36,3 @@ A Telegram bot that **bypasses forward restrictions** by re-uploading text, phot
 ```bash
 git clone https://github.com/yourusername/GetRestrictedMessagesBot.git
 cd GetRestrictedMessagesBot
-
-### 2. Install dependencies  
-```bash
-pip install -r requirements.txt
-
-### 3. Get your API credentials
- - Go to my.telegram.org
- - Log in with your Telegram account
- - Create a new app → copy API_ID and API_HASH
-
-### Generate your session string (one-time only)
-Run the Script 1 time
-```bash
-python sessionFile.py
-
-👉 Follow the login prompts.
-It will output a long session string — copy it.
